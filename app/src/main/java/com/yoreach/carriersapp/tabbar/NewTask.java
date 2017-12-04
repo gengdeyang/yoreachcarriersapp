@@ -39,6 +39,7 @@ public class NewTask extends Fragment implements OnRefreshListener {
 
     private final int GROUP = -2;
     private final int GROUPT = 0;
+    private final int GROUPTEST = 0;
     private final int ITEM = -3;
     private final int BOTTOM = -4;
     private TextView titlename;
