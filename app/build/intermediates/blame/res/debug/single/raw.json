@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/Users/deyang/Desktop/YoreachDriver/app/build/intermediates/res/merged/debug/raw/beep.ogg",
+        "source": "/Users/deyang/Desktop/YoreachDriver/app/src/main/res/raw/beep.ogg"
+    },
+    {
+        "merged": "/Users/deyang/Desktop/YoreachCarriers/app/build/intermediates/res/merged/debug/raw/beep.ogg",
+        "source": "/Users/deyang/Desktop/YoreachCarriers/app/src/main/res/raw/beep.ogg"
+    }
+]

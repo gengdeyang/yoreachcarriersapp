@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "/Users/deyang/Desktop/YoreachDriver/app/build/intermediates/res/merged/debug/mipmap-xxhdpi-v4/ic_launcher_round.png",
+        "source": "/Users/deyang/Desktop/YoreachDriver/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/Users/deyang/Desktop/YoreachDriver/app/build/intermediates/res/merged/debug/mipmap-xxhdpi-v4/ic_launcher.png",
+        "source": "/Users/deyang/Desktop/YoreachDriver/app/src/main/res/mipmap-xxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/deyang/Desktop/YoreachCarriers/app/build/intermediates/res/merged/debug/mipmap-xxhdpi-v4/ic_launcher_round.png",
+        "source": "/Users/deyang/Desktop/YoreachCarriers/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/Users/deyang/Desktop/YoreachCarriers/app/build/intermediates/res/merged/debug/mipmap-xxhdpi-v4/ic_launcher.png",
+        "source": "/Users/deyang/Desktop/YoreachCarriers/app/src/main/res/mipmap-xxhdpi/ic_launcher.png"
+    }
+]

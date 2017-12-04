@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="#F5F5F5"
+              android:orientation="vertical">
+
+    <com.yoreach.carriersapp.component.MyListView
+            android:id="@+id/MyListView"
+            android:layout_width="match_parent"
+            android:fadingEdge="none"
+            android:layout_height="wrap_content">
+    </com.yoreach.carriersapp.component.MyListView>
+
+    <include
+            layout="@layout/list_empty"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="gone"
+            android:id="@+id/layout_empty"/>
+</LinearLayout>

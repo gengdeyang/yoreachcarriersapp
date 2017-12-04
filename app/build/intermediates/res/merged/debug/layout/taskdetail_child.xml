@@ -1,0 +1,334 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:background="@drawable/sys_txtview_bg"
+              android:layout_marginLeft="10dp"
+              android:layout_marginRight="10dp"
+              android:orientation="vertical">
+
+    <LinearLayout
+            android:id="@+id/detal_main_03"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:background="@color/white"
+            android:orientation="vertical">
+
+        <LinearLayout
+                android:id="@+id/detal_main_03_01"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:orientation="horizontal">
+
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:gravity="center_vertical"
+                    android:text="运单号："
+                    android:textColor="@color/black_big"
+                    android:textSize="14sp"/>
+
+            <TextView
+                    android:id="@+id/txt_jhqx"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:gravity="center_vertical"
+                    android:text="xxxx-xx-xx"
+                    android:textColor="@color/black_big"
+                    android:textSize="14sp"/>
+        </LinearLayout>
+
+        <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="0.5dp"
+                android:background="@drawable/line12"/>
+
+        <LinearLayout
+                android:id="@+id/detal_main_03_02"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:orientation="horizontal">
+
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:gravity="center_vertical"
+                    android:text="特约店代码："
+                    android:textColor="@color/black_big"
+                    android:textSize="14sp"/>
+
+            <TextView
+                    android:id="@+id/txt_cartotalnum"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:gravity="center_vertical"
+                    android:text="XXXXX"
+                    android:textColor="@color/black_big"
+                    android:textSize="14sp"/>
+
+            <LinearLayout
+                    android:id="@+id/detal_main_03_02_01"
+                    android:layout_width="fill_parent"
+                    android:layout_height="30dp"
+                    android:gravity="right"
+                    android:orientation="horizontal">
+
+                <TextView
+                        android:id="@+id/txt_carbignum"
+                        android:layout_width="wrap_content"
+                        android:layout_height="fill_parent"
+                        android:gravity="center_vertical"
+                        android:text="特约店名称"
+                        android:textColor="@color/black_big"
+                        android:textSize="14sp"/>
+            </LinearLayout>
+        </LinearLayout>
+
+        <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="0.5dp"
+                android:background="@drawable/line12"/>
+
+        <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="30dp">
+
+            <TextView
+                    android:id="@+id/shoucherentext"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:gravity="center_vertical"
+                    android:text="收车人："
+                    android:textColor="@color/black_big"
+                    android:textSize="14sp"/>
+
+            <TextView
+                    android:id="@+id/shoucheren"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:gravity="center_vertical"
+                    android:text="XXXXX"
+                    android:textColor="@color/black_big"
+                    android:textSize="14sp"/>
+
+            <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="30dp"
+                    android:gravity="right"
+                    android:orientation="horizontal">
+
+                <Button
+                        android:id="@+id/shoucherentel"
+                        android:layout_width="80dp"
+                        android:layout_height="30dp"
+                        android:background="@drawable/umeng_share_send_button_nor"
+                        android:text="收车人电话"
+                        android:textColor="@color/white"
+                        android:textSize="13sp"/>
+            </LinearLayout>
+        </LinearLayout>
+
+        <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="0.5dp"
+                android:background="@drawable/line12"/>
+
+        <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="30dp">
+
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:gravity="center_vertical"
+                    android:text="特约店地址："
+                    android:textColor="@color/black_big"
+                    android:textSize="14sp"/>
+
+            <TextView
+                    android:id="@+id/shopaddress"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:gravity="center_vertical"
+                    android:text="XXXXXXXXXXXXX"
+                    android:textColor="@color/black_big"
+                    android:textSize="14sp"/>
+
+            <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="30dp"
+                    android:gravity="right"
+                    android:orientation="horizontal">
+
+                <Button
+                        android:id="@+id/mapgoto"
+                        android:layout_width="80dp"
+                        android:layout_height="30dp"
+                        android:background="@drawable/umeng_share_send_button_nor"
+                        android:text="导航"
+                        android:textColor="@color/white"
+                        android:textSize="13sp"/>
+            </LinearLayout>
+        </LinearLayout>
+
+        <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="0.5dp"
+                android:background="@drawable/line12"/>
+
+        <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="30dp">
+
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:gravity="center_vertical"
+                    android:text="交货期限："
+                    android:textColor="@color/black_big"
+                    android:textSize="14sp"/>
+
+            <TextView
+                    android:id="@+id/jiaohuodate"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:gravity="center_vertical"
+                    android:text="XXXX-XX-XX"
+                    android:textColor="@color/black_big"
+                    android:textSize="14sp"/>
+
+            <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="30dp"
+                    android:gravity="right"
+                    android:orientation="horizontal">
+
+                <Button
+                        android:id="@+id/suichebeipin"
+                        android:layout_width="80dp"
+                        android:layout_height="30dp"
+                        android:background="@drawable/umeng_share_send_button_nor"
+                        android:text="随车备品"
+                        android:textColor="@color/white"
+                        android:textSize="13sp"/>
+            </LinearLayout>
+        </LinearLayout>
+
+        <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="0.5dp"
+                android:background="@drawable/line12"/>
+    </LinearLayout>
+
+    <LinearLayout
+            android:id="@+id/task_detail_yundanlist_linelayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:background="@color/blue"
+                android:orientation="horizontal">
+
+            <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="2"
+                    android:gravity="center"
+                    android:text="车种"
+                    android:textColor="@color/white"
+                    android:textSize="16sp"/>
+
+            <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="颜色"
+                    android:textColor="@color/white"
+                    android:textSize="16sp"/>
+
+            <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="3"
+                    android:gravity="center"
+                    android:text="VIN"
+                    android:textColor="@color/white"
+                    android:textSize="16sp"/>
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:background="@color/white"
+            android:orientation="horizontal">
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:gravity="center_vertical"
+                android:text="小计（台数）："
+                android:textColor="@color/black_big"
+                android:textSize="14sp"/>
+
+        <TextView
+                android:id="@+id/yundan_txt_cartotalnum"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:gravity="center_vertical"
+                android:text="xx"
+                android:textColor="@color/red"
+                android:textSize="17sp"/>
+
+        <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="30dp"
+                android:gravity="right"
+                android:orientation="horizontal">
+
+            <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:background="@drawable/car01"/>
+
+            <TextView
+                    android:id="@+id/yundan_txt_carbignum"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:gravity="center_vertical"
+                    android:text="xx"
+                    android:textColor="@color/black_big"
+                    android:textSize="14sp"/>
+
+            <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="10dp"
+                    android:background="@drawable/car02"/>
+
+            <TextView
+                    android:id="@+id/yundan_txt_carsmallnum"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:gravity="center_vertical"
+                    android:text="xx"
+                    android:textColor="@color/black_big"
+                    android:textSize="14sp"/>
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

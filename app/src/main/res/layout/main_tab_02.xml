@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:id="@+id/ly_main_weixin"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+              android:background="#fcfcfc"
+              android:orientation="vertical">
+
+    <include layout="@layout/title_bar"/>
+
+    <com.yoreach.carriersapp.component.MyListView
+            android:id="@+id/MyListView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fadingEdge="none">
+    </com.yoreach.carriersapp.component.MyListView>
+
+    <include
+            android:id="@+id/layout_empty"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            layout="@layout/list_empty"
+            android:visibility="gone"/>
+
+</LinearLayout>

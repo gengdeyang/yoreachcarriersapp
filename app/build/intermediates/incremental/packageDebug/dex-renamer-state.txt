@@ -1,0 +1,7 @@
+#Mon Dec 04 11:19:43 CST 2017
+base.0=/Users/deyang/Desktop/YoreachCarriers/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_40eeff71edca6446e47a45bda39bee139ede50a5
+renamed.1=classes.dex
+renamed.0=classes2.dex
+file.1=/Users/deyang/Desktop/YoreachCarriers/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_f881708f3acf3cff453f48cd14263fd68c3daeb1/classes.dex
+base.1=/Users/deyang/Desktop/YoreachCarriers/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_f881708f3acf3cff453f48cd14263fd68c3daeb1
+file.0=/Users/deyang/Desktop/YoreachCarriers/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_40eeff71edca6446e47a45bda39bee139ede50a5/classes.dex
